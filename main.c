@@ -696,6 +696,7 @@ int main(int argc, char *argv)
 
 
 				// kalibrovka
+				/*/
 				if(j == 0)
 				{
 					hx -= 45;
@@ -729,6 +730,7 @@ int main(int argc, char *argv)
 					gyro_x += 1360;
 					gyro_y -= 915;
 				}
+				//*/
 
 				if(j == 0 || j==1 || j==2 || j==3) //levaya ruka: plecho 1 predpl 2 kist 3 
 				{
